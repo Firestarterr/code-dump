@@ -1,0 +1,223 @@
+2020-02-20 08:20:16 INFO  SchedulerView:162 - User: koozturk Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 08:24:36 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-20 08:25:47 INFO  SchedulerView:162 - User: ebaykara Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 08:25:59 INFO  SchedulerView:162 - User: AKALACHEV Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 08:26:25 INFO  SchedulerView:162 - User: vkalinchenko Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 08:28:12 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-20 08:29:05 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-20 08:29:19 INFO  SchedulerView:162 - User: bdonmez Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 08:33:50 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+2020-02-20 08:34:07 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+2020-02-20 08:34:11 INFO  SchedulerView:162 - User: dkaya Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 08:34:29 INFO  SchedulerView:162 - User: mismayilov Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 08:40:09 INFO  SchedulerView:162 - User: fozdogan Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+2020-02-20 08:51:22 INFO  SchedulerView:162 - User: iacikel Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 08:54:11 INFO  SchedulerView:162 - User: hakcay Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 08:55:29 INFO  SchedulerView:162 - User: hrdogan Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 08:56:35 INFO  SchedulerView:162 - User: myagiz Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 09:01:31 INFO  SchedulerView:162 - User: samsimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 09:06:13 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+2020-02-20 09:09:18 INFO  SchedulerView:162 - User: kyurdakul Browser: Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-J730F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36
+2020-02-20 09:11:47 INFO  SchedulerView:162 - User: fuyarar Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 09:12:13 INFO  SchedulerView:162 - User: mkoseli Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 09:13:24 INFO  SchedulerView:162 - User: kyurdakul Browser: Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-J730F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36
+2020-02-20 09:14:30 INFO  SchedulerView:162 - User: iaakgun Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 09:16:12 INFO  SchedulerView:162 - User: hucar Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 09:22:57 INFO  SchedulerView:162 - User: fucakir Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 09:26:23 INFO  SchedulerView:162 - User: sesari Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 09:32:33 INFO  SchedulerView:162 - User: csevindik Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 09:32:53 INFO  SchedulerView:162 - User: ksimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 09:35:35 INFO  SchedulerView:162 - User: ksimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 09:47:09 INFO  SchedulerView:162 - User: tbulbuloglu Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 09:50:51 INFO  SchedulerView:162 - User: aounal Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 09:55:57 INFO  SchedulerView:162 - User: AKANALKIZI Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 10:05:02 INFO  SchedulerView:162 - User: berozan Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 10:18:04 INFO  SchedulerView:162 - User: samsimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 10:21:05 INFO  SchedulerView:162 - User: samsimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 10:21:47 INFO  SchedulerView:162 - User: hakcay Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 10:23:29 INFO  SchedulerView:162 - User: MTUSSUPOVA Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 10:37:54 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+2020-02-20 10:46:35 INFO  SchedulerView:162 - User: yuuzun Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 10:47:15 INFO  SchedulerView:162 - User: abiyik Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 11:07:07 INFO  SchedulerView:162 - User: mgumus Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 11:07:31 INFO  SchedulerView:162 - User: mgumus Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 11:08:24 INFO  SchedulerView:162 - User: dkaya Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 11:10:00 INFO  SchedulerView:162 - User: samsimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 11:15:34 INFO  SchedulerView:162 - User: tardic Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 11:29:01 INFO  SchedulerView:162 - User: aakatova Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 11:29:39 INFO  SchedulerView:162 - User: mkoseli Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 11:34:45 INFO  SchedulerView:162 - User: eyedekcioglu Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 11:35:07 INFO  SchedulerView:162 - User: eyedekcioglu Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 11:54:58 INFO  SchedulerView:162 - User: ksimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 13:02:07 INFO  SchedulerView:162 - User: cvural Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 13:02:33 INFO  SchedulerView:162 - User: cvural Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 13:03:53 INFO  SchedulerView:162 - User: cvural Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 13:14:29 INFO  SchedulerView:162 - User: OKORNISHENKO Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 13:14:37 INFO  SchedulerView:162 - User: okoklu Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 13:14:43 INFO  SchedulerView:162 - User: kerema Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 13:15:56 INFO  SchedulerView:162 - User: ksimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 13:17:08 INFO  SchedulerView:162 - User: kerema Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 13:18:50 INFO  SchedulerView:162 - User: hakcay Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 13:20:28 INFO  SchedulerView:162 - User: dkaya Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 13:20:59 INFO  SchedulerView:162 - User: abiyik Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 13:21:40 INFO  SchedulerView:162 - User: dkaya Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 13:24:54 INFO  SchedulerView:162 - User: kerema Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 13:25:49 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+2020-02-20 13:30:57 INFO  SchedulerView:162 - User: hakcay Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 13:34:54 INFO  SchedulerView:162 - User: ksimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 13:43:18 INFO  SchedulerView:162 - User: vkalinchenko Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 13:44:05 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+2020-02-20 13:46:05 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+2020-02-20 14:01:07 INFO  SchedulerView:162 - User: mkoseli Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 14:04:10 INFO  SchedulerView:162 - User: mkoseli Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 14:07:18 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-20 14:22:32 INFO  SchedulerView:162 - User: vyayman Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; wbx 1.0.0)
+2020-02-20 14:24:13 INFO  SchedulerView:162 - User: samsimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 14:24:18 INFO  SchedulerView:162 - User: aakatova Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 14:25:14 INFO  SchedulerView:162 - User: fucakir Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 14:27:25 INFO  SchedulerView:162 - User: vyayman Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; wbx 1.0.0)
+2020-02-20 14:28:01 INFO  SchedulerView:162 - User: fucakir Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 14:28:40 INFO  SchedulerView:162 - User: fucakir Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 14:41:41 INFO  SchedulerView:162 - User: samsimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 14:41:55 INFO  SchedulerView:162 - User: hgokce Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 14:43:02 INFO  SchedulerView:162 - User: vyayman Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; wbx 1.0.0)
+2020-02-20 14:43:54 INFO  SchedulerView:162 - User: samsimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 14:46:54 INFO  SchedulerView:162 - User: mkoseli Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 14:48:14 INFO  SchedulerView:162 - User: musahin Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 14:51:42 INFO  SchedulerView:162 - User: vyayman Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; wbx 1.0.0)
+2020-02-20 14:54:35 INFO  SchedulerView:162 - User: dkaya Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 15:03:23 INFO  SchedulerView:162 - User: vkalinchenko Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 15:05:35 INFO  SchedulerView:162 - User: aulu Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 15:06:50 INFO  SchedulerView:162 - User: mkoseli Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 15:09:38 INFO  SchedulerView:162 - User: mkoseli Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 15:13:56 INFO  SchedulerView:162 - User: eyedekcioglu Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 15:17:33 INFO  SchedulerView:162 - User: dkaya Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 15:25:02 INFO  SchedulerView:162 - User: aounal Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 15:25:21 INFO  SchedulerView:162 - User: hakcay Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 15:33:59 INFO  SchedulerView:162 - User: aounal Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 15:35:03 INFO  SchedulerView:162 - User: yuuzun Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 15:37:17 INFO  SchedulerView:162 - User: okoklu Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 15:51:39 INFO  SchedulerView:162 - User: eabbasov Browser: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 15:57:27 INFO  SchedulerView:162 - User: aulu Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 16:04:07 INFO  SchedulerView:162 - User: bdonmez Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 16:05:58 INFO  SchedulerView:162 - User: iaakgun Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 16:06:55 INFO  SchedulerView:162 - User: mgumus Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 16:08:33 INFO  SchedulerView:162 - User: mgumus Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 16:11:28 INFO  SchedulerView:162 - User: csevindik Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 16:14:04 INFO  SchedulerView:162 - User: abiyik Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 16:23:00 INFO  SchedulerView:162 - User: tardic Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 16:23:46 INFO  SchedulerView:162 - User: abiyik Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 16:28:52 INFO  SchedulerView:162 - User: ebaykara Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 16:30:15 INFO  SchedulerView:162 - User: hakcay Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 16:32:37 INFO  SchedulerView:162 - User: tardic Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 16:37:06 INFO  SchedulerView:162 - User: hucar Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 16:41:38 INFO  SchedulerView:162 - User: cvural Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 16:41:52 INFO  SchedulerView:162 - User: cvural Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 16:47:22 INFO  SchedulerView:162 - User: kerema Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 16:48:10 INFO  SchedulerView:162 - User: kerema Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 16:55:48 INFO  SchedulerView:162 - User: kerema Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 17:01:47 INFO  SchedulerView:162 - User: ksimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 17:03:52 INFO  SchedulerView:162 - User: hucar Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 17:13:28 INFO  SchedulerView:162 - User: dkaya Browser: Mozilla/5.0 (Linux; Android 9; SM-J730F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.117 Mobile Safari/537.36
+2020-02-20 17:16:50 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-20 17:28:35 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-20 17:29:36 INFO  SchedulerView:162 - User: taydin Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 17:32:34 INFO  SchedulerView:162 - User: hakcay Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-20 17:50:08 INFO  SchedulerView:162 - User: bdonmez Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 17:50:26 INFO  SchedulerView:162 - User: bdonmez Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 18:00:05 INFO  SchedulerView:162 - User: ksimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 18:30:02 INFO  SchedulerView:162 - User: UDOGAN Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0E; .NET4.0C)
+2020-02-20 19:06:05 INFO  SchedulerView:162 - User: rseven Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 19:06:45 INFO  SchedulerView:162 - User: hucar Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-20 20:13:34 INFO  SchedulerView:162 - User: cvural Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 20:57:44 INFO  SchedulerView:162 - User: ksimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 21:52:03 INFO  SchedulerView:162 - User: bdonmez Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 21:52:05 INFO  SchedulerView:162 - User: bdonmez Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-20 22:30:55 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-20 22:38:43 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-20 22:39:15 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-20 22:41:15 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-21 01:44:20 INFO  SchedulerView:162 - User: gtecimer Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 04:26:05 INFO  SchedulerView:162 - User: AKALACHEV Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 05:31:56 INFO  SchedulerView:162 - User: gshapurin Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 05:32:03 INFO  SchedulerView:162 - User: MMARIPOVA Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 05:38:38 INFO  SchedulerView:162 - User: gshapurin Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 05:59:19 INFO  SchedulerView:162 - User: aakatova Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 06:07:53 INFO  SchedulerView:162 - User: aakatova Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 06:44:21 INFO  SchedulerView:162 - User: yabeldinov Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 06:53:36 INFO  SchedulerView:162 - User: OKORNISHENKO Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:00:11 INFO  SchedulerView:162 - User: vkalinchenko Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:06:49 INFO  SchedulerView:162 - User: AKANALKIZI Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:22:52 INFO  SchedulerView:162 - User: yabeldinov Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 07:31:55 INFO  SchedulerView:162 - User: slocva Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:36:46 INFO  SchedulerView:162 - User: gshapurin Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:37:40 INFO  SchedulerView:162 - User: kyurdakul Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:41:30 INFO  SchedulerView:162 - User: ikquliyev Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 07:44:25 INFO  SchedulerView:162 - User: dkaya Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 07:45:15 INFO  SchedulerView:162 - User: okoklu Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 07:46:20 INFO  SchedulerView:162 - User: ebaykara Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:47:34 INFO  SchedulerView:162 - User: mgumus Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:47:39 INFO  SchedulerView:162 - User: gshapurin Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:47:51 INFO  SchedulerView:162 - User: fucakir Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:51:43 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+2020-02-21 07:54:19 INFO  SchedulerView:162 - User: rseven Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 07:54:53 INFO  SchedulerView:162 - User: fozdogan Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+2020-02-21 07:57:39 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-21 07:59:03 INFO  SchedulerView:162 - User: hakcay Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-21 07:59:10 INFO  SchedulerView:162 - User: oregay Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 07:59:45 INFO  SchedulerView:162 - User: taydin Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:02:26 INFO  SchedulerView:162 - User: abiyik Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-21 08:03:08 INFO  SchedulerView:162 - User: fozdogan Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+2020-02-21 08:06:18 INFO  SchedulerView:162 - User: adgumus Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-21 08:08:01 INFO  SchedulerView:162 - User: eabbasov Browser: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:10:07 INFO  SchedulerView:162 - User: bdonmez Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 08:10:10 INFO  SchedulerView:162 - User: bdonmez Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 08:10:21 INFO  SchedulerView:162 - User: cvural Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 08:10:54 INFO  SchedulerView:162 - User: rseven Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:12:21 INFO  SchedulerView:162 - User: sesari Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:12:50 INFO  SchedulerView:162 - User: iacikel Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 08:15:12 INFO  SchedulerView:162 - User: rdogan Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:17:06 INFO  SchedulerView:162 - User: mgumus Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 08:18:14 INFO  SchedulerView:162 - User: syaras Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:18:15 INFO  SchedulerView:162 - User: syaras Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:18:37 INFO  SchedulerView:162 - User: mkoseli Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:19:25 INFO  SchedulerView:162 - User: nbsumra Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:20:22 INFO  SchedulerView:162 - User: slocva Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 08:27:19 INFO  SchedulerView:162 - User: sesari Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:28:13 INFO  SchedulerView:162 - User: sesari Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:28:41 INFO  SchedulerView:162 - User: taydin Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:29:02 INFO  SchedulerView:162 - User: taydin Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:29:39 INFO  SchedulerView:162 - User: nbsumra Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:29:40 INFO  SchedulerView:162 - User: musahin Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 08:30:41 INFO  SchedulerView:162 - User: syaras Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 08:40:02 INFO  SchedulerView:162 - User: ekelebek Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 08:42:57 INFO  SchedulerView:162 - User: vkalinchenko Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 08:44:39 INFO  SchedulerView:162 - User: sserdar Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2020-02-21 08:50:08 INFO  SchedulerView:162 - User: hgokce Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:00:15 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-21 09:02:41 INFO  SchedulerView:162 - User: hrdogan Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:03:11 INFO  SchedulerView:162 - User: koozturk Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:03:13 INFO  SchedulerView:162 - User: osmanc Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:09:24 INFO  SchedulerView:162 - User: yuuzun Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:11:59 INFO  SchedulerView:162 - User: myagiz Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:16:04 INFO  SchedulerView:162 - User: aounal Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 09:18:48 INFO  SchedulerView:162 - User: trustemli Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:19:18 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-21 09:20:03 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+2020-02-21 09:22:42 INFO  SchedulerView:162 - User: GARAS Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:25:12 INFO  SchedulerView:162 - User: GARAS Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:28:34 INFO  SchedulerView:162 - User: mugurbuz Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:34:13 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-21 09:46:57 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-21 09:49:59 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-21 09:51:29 INFO  SchedulerView:162 - User: mmete Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2020-02-21 09:51:56 INFO  SchedulerView:162 - User: fuyarar Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 09:53:28 INFO  SchedulerView:162 - User: aounal Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 09:54:51 INFO  SchedulerView:162 - User: tardic Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 09:57:06 INFO  SchedulerView:162 - User: iacikel Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 09:57:59 INFO  SchedulerView:162 - User: samsimsek Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 10:13:21 INFO  SchedulerView:162 - User: mcoskun Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 10:14:22 INFO  SchedulerView:162 - User: hucar Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-02-21 10:29:50 INFO  SchedulerView:162 - User: GARAS Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 10:30:02 INFO  SchedulerView:162 - User: GARAS Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+2020-02-21 10:34:15 INFO  SchedulerView:162 - User: ekizilkaya Browser: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
