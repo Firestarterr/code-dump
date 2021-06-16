@@ -14,7 +14,7 @@ public class YillikGelirGiderHesapTahmini {
 
     public static void main(String[] args) {
         //inputs
-        double aylikFatura = 24000d;
+        double aylikFatura = 46000d;
         double aylik8Gider = 4000d;
         double aylik18Gider = 9000d;
         System.out.println("inputlar");
