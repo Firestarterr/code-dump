@@ -13,20 +13,16 @@ public class YillikGelirGiderHesapTahmini {
     private static final double kdv18 = 18d;
 
     public static void main(String[] args) {
+        DecimalFormat paraFormatter = new DecimalFormat("####,###,###.00");
         //inputs
-        double aylikFatura = 46000d;
+        double aylikFatura = 16800d;
+        double aylikKdvsizFatura = 45000d;
         double aylik8Gider = 4000d;
-        double aylik18Gider = 9000d;
-        System.out.println("inputlar");
-        System.out.println(
-                "Kesilen Fatura: " + aylikFatura + "\t" +
-                        "Harcanan %8 lik :" + aylik8Gider + "\t" +
-                        "Harcanan %18 lik :" + aylik18Gider
-        );
+        double aylik18Gider = 14000d;
 
         double aylikKdv = aylikFatura * kdv18 / 100;
-        double aylikKazanc = aylikFatura + aylikKdv;
-        double yillikFatura = aylikFatura * 12;
+        double aylikKazanc = aylikFatura + aylikKdv + aylikKdvsizFatura;
+        double yillikFatura = (aylikFatura + aylikKdvsizFatura) * 12;
         double yillikKdv = aylikKdv * 12;
         double yillikKazanc = aylikKazanc * 12;
 
@@ -55,7 +51,6 @@ public class YillikGelirGiderHesapTahmini {
         System.out.println("----- Aylik Hesap -----");
         for (int i = 1; i < 13; i++) {
             double gelir = aylikKazanc - aylik8Gider - aylik18Gider;
-            System.out.println(i + " ay geliri: " + gelir);
 
             toplamGelir += gelir;
             System.out.println(i + " ay toplam geliri: " + toplamGelir);
@@ -85,6 +80,7 @@ public class YillikGelirGiderHesapTahmini {
         System.out.println("inputlar");
         System.out.println(
                 "Kesilen Fatura: " + aylikFatura + "\t" +
+                        "Kesilen Kdvsiz Fatura: " + aylikKdvsizFatura + "\t" +
                         "Harcanan %8 lik :" + aylik8Gider + "\t" +
                         "Harcanan %18 lik :" + aylik18Gider
         );
@@ -96,6 +92,8 @@ public class YillikGelirGiderHesapTahmini {
                 double kalanGelir = toplamGelir - dilim.getSi_icin();
                 yillikGelirVergisi += dilim.getMiktar();
                 yillikGelirVergisi += kalanGelir * dilim.getOran();
+                System.out.println("Yıllık Gelir Vergisi (" + dilim.getOran() + "):" + paraFormatter.format(yillikGelirVergisi));
+                System.out.println("Seneye ödenecek olan taksitler " + paraFormatter.format((yillikGelirVergisi - toplamOdenenGelirVergisi) / 2) + " x2");
                 break;
             }
         }
@@ -110,17 +108,15 @@ public class YillikGelirGiderHesapTahmini {
 
         yillikGelirVergisi -= toplamOdenenGelirVergisi;
         dusmedenYillikGelirVergisi -= dusmedenToplamOdenenGelirVergisi;
-        DecimalFormat paraFormatter = new DecimalFormat("####,###,###.00");
 
-        System.out.println("Yıllık Gelir Vergisi: " + paraFormatter.format(yillikGelirVergisi));
         toplamOdenenGelirVergisi += yillikGelirVergisi;
         dusmedenToplamOdenenGelirVergisi += dusmedenYillikGelirVergisi;
 
         System.out.println("----- Hesap -----");
         System.out.println("Toplam Kazanılan: " + paraFormatter.format(yillikKazanc));
-        System.out.println("Toplam Gelir: " + paraFormatter.format(toplamGelir) + "\t" + "Hiç Düşmezsen: " + paraFormatter.format(yillikFatura));
-        System.out.println("Toplam Kdv: " + paraFormatter.format(toplamOdenenKdv) + "\t" + "Hiç Düşmezsen: " + paraFormatter.format(yillikKdv));
-        System.out.println("Toplam Gelir Vergisi: " + paraFormatter.format(toplamOdenenGelirVergisi) + "\t" + "Hiç Düşmezsen: " + paraFormatter.format(dusmedenToplamOdenenGelirVergisi));
+        System.out.println("Toplam Gelir: " + paraFormatter.format(toplamGelir) + "\t" + " Hiç Düşmezsen: " + paraFormatter.format(yillikFatura));
+        System.out.println("Toplam Kdv: " + paraFormatter.format(toplamOdenenKdv) + "\t" + " Hiç Düşmezsen: " + paraFormatter.format(yillikKdv));
+        System.out.println("Toplam Gelir Vergisi: " + paraFormatter.format(toplamOdenenGelirVergisi) + "\t" + " Hiç Düşmezsen: " + paraFormatter.format(dusmedenToplamOdenenGelirVergisi));
         double eldeKalanPara = yillikKazanc - toplamOdenenKdv - toplamOdenenGelirVergisi;
         System.out.println("Elde Kalan Para Yillik: " + paraFormatter.format(eldeKalanPara));
         System.out.println("Elde Kalan Para Aylik: " + paraFormatter.format(eldeKalanPara / 12));
