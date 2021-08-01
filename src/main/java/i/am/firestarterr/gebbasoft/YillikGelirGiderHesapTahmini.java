@@ -15,10 +15,10 @@ public class YillikGelirGiderHesapTahmini {
     public static void main(String[] args) {
         DecimalFormat paraFormatter = new DecimalFormat("####,###,###.00");
         //inputs
-        double aylikFatura = 16800d;
-        double aylikKdvsizFatura = 45000d;
+        double aylikFatura = 29000d + 18000d;
+        double aylikKdvsizFatura = 5200d * 8.73d;
         double aylik8Gider = 4000d;
-        double aylik18Gider = 14000d;
+        double aylik18Gider = 9000d;
 
         double aylikKdv = aylikFatura * kdv18 / 100;
         double aylikKazanc = aylikFatura + aylikKdv + aylikKdvsizFatura;
