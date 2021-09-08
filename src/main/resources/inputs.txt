@@ -33,3 +33,6 @@ altın:sat:502.275740:27
 anapara:12944.59:13/07/2021
 dolar:al:8.6125:1500
 dolar:kambiyo:25.84
+anapara:26855.11:03/08/2021
+euro:al:9.926485:2700
+euro:kambiyo:53.60

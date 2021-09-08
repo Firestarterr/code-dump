@@ -3,20 +3,25 @@ package i.am.firestarterr.anlik;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Anlik {
 
     private static final String GET_URL = "http://localhost:8002/secure/schedulers_old.xhtml";
 
     public static void main(String[] args) throws IOException {
-        Anlik anlik = new Anlik();
-        for (int i = 0; i < 300; i++) {
-            try {
-                anlik.sendGET();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+//        Anlik anlik = new Anlik();
+
+        System.out.println("piper".charAt(3));
+        ArrayList<String> s = new ArrayList<>(Arrays.asList("ehue", "e"));
+//        for (int i = 0; i < 300; i++) {
+//            try {
+//                anlik.sendGET();
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        }
         System.out.println("ehue");
     }
 
