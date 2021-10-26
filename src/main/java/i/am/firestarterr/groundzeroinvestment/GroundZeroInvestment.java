@@ -33,6 +33,8 @@ public class GroundZeroInvestment {
         try (Stream<String> stream = Files.lines(path)) {
             for (String line : stream.collect(Collectors.toList())) {
                 line = line.replaceAll("altin", "altın").replaceAll(",", ".");
+                if (line.startsWith("#") || line.startsWith("/"))
+                    continue;
                 String[] params = line.split(":");
                 if (params[0].equalsIgnoreCase("anapara")) {
                     anapara += Double.parseDouble(params[1]);
