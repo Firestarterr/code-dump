@@ -36,3 +36,11 @@ dolar:kambiyo:25.84
 anapara:26855.11:03/08/2021
 euro:al:9.926485:2700
 euro:kambiyo:53.60
+anapara:-16908.77:20/09/2021
+euro:sat:10.094612:1700
+anapara:-9946.34:26/10/2021
+euro:sat:10,922628:1000.02
+anapara:0:26/10/2021
+dolar:sat:9,4225:5231,96
+anapara:12826.94:26/10/2021
+altın:sat:540,719717:100

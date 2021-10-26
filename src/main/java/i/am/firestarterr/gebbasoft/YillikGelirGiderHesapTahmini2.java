@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class YillikGelirGiderHesapTahmini {
+public class YillikGelirGiderHesapTahmini2 {
 
     private static final double kdv1 = 1d;
     private static final double kdv8 = 8d;
@@ -20,10 +20,10 @@ public class YillikGelirGiderHesapTahmini {
         enparaLive.init();
         //inputs
         double aylikFatura = 28000d + 18000d;
-        double aylikKdvsizFatura = 5197.33d * (enparaLive.getUsdBuy() + enparaLive.getUsdSell()) / 2;
+        double aylikKdvsizFatura = 5200d * (enparaLive.getUsdBuy() + enparaLive.getUsdSell()) / 2;
         double aylik1Gider = 3000d;
         double aylik8Gider = 4000d;
-        double aylik18Gider = 10000d;
+        double aylik18Gider = 9000d;
 
         double aylikKdv = aylikFatura * kdv18 / 100;
         double aylikKazanc = aylikFatura + aylikKdv + aylikKdvsizFatura;

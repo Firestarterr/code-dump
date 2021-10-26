@@ -142,15 +142,18 @@ public class Calculator {
     }
 
     public void printBuyRate() {
-        System.out.println("ortalama " + type + " alış kuru: " + averageBuyRate + " \t anlık alış kuru: " + enparaBuy);
+        System.out.println("ortalama " + type + " alış kuru: " + averageBuyRate + " \t anlık alış kuru: " + enparaBuy
+                + " \t yüzde fark: " + 100 * Math.abs(averageBuyRate - enparaBuy) / averageBuyRate);
     }
 
     public void printSellRate() {
-        System.out.println("ortalama " + type + " satış kuru: " + averageSellRate + " \t anlık satış kuru: " + enparaSell);
+        System.out.println("ortalama " + type + " satış kuru: " + averageSellRate + " \t anlık satış kuru: " + enparaSell
+                + " \t yüzde fark: " + 100 * Math.abs(averageSellRate - enparaSell) / averageSellRate);
     }
 
     public void printEffectiveSellRate() {
-        System.out.println(type + " satılması gereken kur: \t " + effectiveSellRate);
+        System.out.println(type + " satılması gereken kur: \t " + effectiveSellRate + " \t anlık satış kuru: " + enparaSell
+                + " \t yüzde fark: " + 100 * Math.abs(effectiveSellRate - enparaSell) / effectiveSellRate);
     }
 
     public void printSuggestions() {
