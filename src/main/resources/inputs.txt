@@ -14,7 +14,7 @@ altın:al:453.449591:10
 altın:kambiyo:9.07
 anapara:-29420.72:11/01/2021
 dolar:sat:7.502500:4000
-anapara:29798.98:12/01/2021****50 kaldı
+anapara:29798.98:12/01/2021
 altın:al:443.873202:67
 altın:kambiyo:59.48
 anapara:18472.12:14/01/2021
@@ -22,15 +22,15 @@ altın:al:438.934430:42
 altın:kambiyo:36.87
 anapara:-18472.12:20/01/2021
 altın:sat:440.174840:42
-anapara:833.81:12/05/2021
+anapara:833.81:12/05/2021***
 dolar:al:8.3215:100
 dolar:kambiyo:1.66
-anapara:24931.45:28/06/2021****50 kaldı
+anapara:24931.45:28/06/2021
 altın:al:497.633828:50
 altın:kambiyo:49.76
 anapara:-12104.51:08/07/2021
 altın:sat:502.275740:27
-anapara:12944.59:13/07/2021
+anapara:12944.59:13/07/2021***
 dolar:al:8.6125:1500
 dolar:kambiyo:25.84
 anapara:26855.11:03/08/2021
@@ -42,5 +42,5 @@ anapara:-9946.34:26/10/2021
 euro:sat:10,922628:1000
 anapara:0:26/10/2021
 dolar:sat:9,4225:5231,96
-anapara:12826.94:26/10/2021
+anapara:-47169.49:26/10/2021
 altın:sat:540,719717:100
