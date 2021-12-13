@@ -50,3 +50,9 @@ euro:kambiyo:68.40
 anapara:39452.75:10/11/2021
 dolar:al:9,8435:4000
 euro:kambiyo:78.75
+anapara:44947.14:03/12/2021
+euro:al:15,468081:2900
+euro:kambiyo:89,71
+anapara:16746.43:10/12/2021
+dolar:al:13.9275:1200
+dolar:kambiyo:33.43
