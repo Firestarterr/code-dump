@@ -19,11 +19,11 @@ public class YillikGelirGiderHesapTahmini {
         EnparaLive enparaLive = new EnparaLive();
         enparaLive.init();
         //inputs
-        double aylikFatura = 28000d + 18000d;
-        double aylikKdvsizFatura = 5197.33d * (enparaLive.getUsdBuy() + enparaLive.getUsdSell()) / 2;
-        double aylik1Gider = 3000d;
-        double aylik8Gider = 4000d;
-        double aylik18Gider = 10000d;
+        double aylikFatura = 20000d;
+        double aylikKdvsizFatura = 5200d * (enparaLive.getUsdBuy() + enparaLive.getUsdSell()) / 2;
+        double aylik1Gider = 2000d;
+        double aylik8Gider = 15000d;
+        double aylik18Gider = 15000d;
 
         double aylikKdv = aylikFatura * kdv18 / 100;
         double aylikKazanc = aylikFatura + aylikKdv + aylikKdvsizFatura;
@@ -33,23 +33,23 @@ public class YillikGelirGiderHesapTahmini {
 
         List<GelirVergisiDilimi> dilimler = GibTarife.init();
 
-        System.out.println("Yıllık Brüt: " + yillikKazanc);
+        System.out.println("Yıllık Brüt: " + paraFormatter.format(yillikKazanc));
 
         double aylik1Kdv = aylik1Gider * kdv1 / 100d;
         double aylik1KdvsizGider = aylik1Gider - aylik1Kdv;
-        System.out.println("%1 lik kdv: " + aylik1Kdv + "\t%1 gider: " + aylik1KdvsizGider);
+        System.out.println("%1 lik kdv: " + paraFormatter.format(aylik1Kdv) + "\t%1 gider: " + paraFormatter.format(aylik1KdvsizGider));
 
         double aylik8Kdv = aylik8Gider * kdv8 / 100d;
         double aylik8KdvsizGider = aylik8Gider - aylik8Kdv;
-        System.out.println("%8 lik kdv: " + aylik8Kdv + "\t%8 gider: " + aylik8KdvsizGider);
+        System.out.println("%8 lik kdv: " + paraFormatter.format(aylik8Kdv) + "\t%8 gider: " + paraFormatter.format(aylik8KdvsizGider));
 
         double aylik18Kdv = aylik18Gider * kdv18 / 100d;
         double aylik18KdvsizGider = aylik18Gider - aylik18Kdv;
-        System.out.println("%18 lik kdv: " + aylik18Kdv + "\t%18 gider: " + aylik18KdvsizGider);
+        System.out.println("%18 lik kdv: " + paraFormatter.format(aylik18Kdv) + "\t%18 gider: " + paraFormatter.format(aylik18KdvsizGider));
 
         double aylikKalanKdv = aylikKdv - aylik1Kdv - aylik8Kdv - aylik18Kdv;
-        System.out.println("Aylık Ele Gecen: " + aylikKazanc + "\tAylik Kdv: " + aylikKdv);
-        System.out.println("Aylık Odenecek Kdv: " + aylikKalanKdv);
+        System.out.println("Aylık Ele Gecen: " + paraFormatter.format(aylikKazanc) + "\tAylik Kdv: " + paraFormatter.format(aylikKdv));
+        System.out.println("Aylık Odenecek Kdv: " + paraFormatter.format(aylikKalanKdv));
 
         double vergisiOdenmemisGelir = 0d;
         double dusmedenVergisiOdenmemisGelir = 0d;
@@ -63,10 +63,10 @@ public class YillikGelirGiderHesapTahmini {
             gelir = gelir - aylikKdvsizFatura / 2;
 
             toplamGelir += gelir;
-            System.out.println(i + " ay geliri: " + gelir);
-            System.out.println(i + " ay toplam geliri: " + (toplamGelir + aylikKdvsizFatura / 2));
+            System.out.println(i + " ay geliri: " + paraFormatter.format(gelir));
+            System.out.println(i + " ay toplam geliri: " + paraFormatter.format((toplamGelir + aylikKdvsizFatura / 2)));
 
-            System.out.println(i + " ay kdvsi: " + aylikKalanKdv);
+            System.out.println(i + " ay kdvsi: " + paraFormatter.format(aylikKalanKdv));
             toplamOdenenKdv += aylikKalanKdv;
 
             vergisiOdenmemisGelir += gelir;
@@ -80,7 +80,7 @@ public class YillikGelirGiderHesapTahmini {
                     double dusmedenGeciciGelirVergisi = dusmedenVergisiOdenmemisGelir * dilimler.get(0).getOran();
                     toplamOdenenGelirVergisi += geciciGelirVergisi;
                     dusmedenToplamOdenenGelirVergisi += dusmedenGeciciGelirVergisi;
-                    System.out.println("*" + i + " ay gelir vergisi:" + geciciGelirVergisi);
+                    System.out.println("*" + i + " ay gelir vergisi:" + paraFormatter.format(geciciGelirVergisi));
                     vergisiOdenmemisGelir = 0d;
                     dusmedenVergisiOdenmemisGelir = 0d;
                     break;
@@ -91,10 +91,10 @@ public class YillikGelirGiderHesapTahmini {
         System.out.println("inputlar");
         System.out.println(
                 "Kesilen Fatura: " + aylikFatura + "\t" +
-                        "Kesilen Kdvsiz Fatura: " + aylikKdvsizFatura + "\t" +
-                        "Harcanan %1 lik :" + aylik1Gider + "\t" +
-                        "Harcanan %8 lik :" + aylik8Gider + "\t" +
-                        "Harcanan %18 lik :" + aylik18Gider
+                        "Kesilen Kdvsiz Fatura: " + paraFormatter.format(aylikKdvsizFatura) + "\t" +
+                        "Harcanan %1 lik :" + paraFormatter.format(aylik1Gider) + "\t" +
+                        "Harcanan %8 lik :" + paraFormatter.format(aylik8Gider) + "\t" +
+                        "Harcanan %18 lik :" + paraFormatter.format(aylik18Gider)
         );
         System.out.println("----- Sene Sonu Hesabı -----");
         double yillikGelirVergisi = 0d;
@@ -146,11 +146,11 @@ public class YillikGelirGiderHesapTahmini {
     public static class GibTarife {
         public static List<GelirVergisiDilimi> init() {
             List<GelirVergisiDilimi> gelirVergisiDilimiList = new ArrayList<>();
-            gelirVergisiDilimiList.add(new GelirVergisiDilimi(22000d, 0d, 0d, 0.15d));
-            gelirVergisiDilimiList.add(new GelirVergisiDilimi(49000d, 22000d, 3300d, 0.20d));
-            gelirVergisiDilimiList.add(new GelirVergisiDilimi(120000d, 49000d, 8700d, 0.27d));
-            gelirVergisiDilimiList.add(new GelirVergisiDilimi(600000d, 120000d, 27870d, 0.35d));
-            gelirVergisiDilimiList.add(new GelirVergisiDilimi(999999999d, 600000d, 195870d, 0.40d));
+            gelirVergisiDilimiList.add(new GelirVergisiDilimi(32000d, 0d, 0d, 0.15d));
+            gelirVergisiDilimiList.add(new GelirVergisiDilimi(70000d, 32000d, 4800d, 0.20d));
+            gelirVergisiDilimiList.add(new GelirVergisiDilimi(170000d, 70000d, 12400d, 0.27d));
+            gelirVergisiDilimiList.add(new GelirVergisiDilimi(880000d, 170000d, 39400d, 0.35d));
+            gelirVergisiDilimiList.add(new GelirVergisiDilimi(999999999d, 880000d, 287900d, 0.40d));
             return gelirVergisiDilimiList;
         }
     }
