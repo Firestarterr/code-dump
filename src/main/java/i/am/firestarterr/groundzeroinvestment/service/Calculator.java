@@ -4,10 +4,7 @@ import i.am.firestarterr.groundzeroinvestment.model.Input;
 import i.am.firestarterr.groundzeroinvestment.model.Operation;
 import lombok.Getter;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 import static java.util.Map.Entry.comparingByKey;
 import static java.util.stream.Collectors.toMap;
@@ -27,6 +24,8 @@ public class Calculator {
     private Double totalSoldAmount = 0d;
     private Double totalBoughtPrice = 0d;
     private Double totalSoldPrice = 0d;
+    //calculated investment amount list
+    private final LinkedList<String> remainingInvestment = new LinkedList<>();
     //derivative calculations
     private Map<Double, Double> remainingSellMap = new HashMap<>();
     private Double effectiveBoughtRate = 0d;
@@ -46,17 +45,35 @@ public class Calculator {
     }
 
     public void addInput(Input input) {
+        Double amount = input.getAmount();
         if (input.getOperation().equals(Operation.sat)) {
-            putToMap(true, input.getRate(), input.getAmount(), input.getCommission());
+            putToMap(true, input.getRate(), amount, input.getCommission());
+            while (amount > 0) {
+                String investmentJoined = remainingInvestment.removeFirst();
+                Double investmentAmount = Double.valueOf(investmentJoined.split(":")[0]);
+                Double investmentPrice = Double.valueOf(investmentJoined.split(":")[1]);
+                if (investmentAmount > amount) {
+                    investmentPrice = investmentPrice * ((investmentAmount - amount) / investmentAmount);
+                    remainingInvestment.addFirst((investmentAmount - amount) + ":" + investmentPrice);
+                }
+                amount = amount - investmentAmount;
+            }
         } else if (input.getOperation().equals(Operation.kambiyo)) {
             if (buyMap.containsKey(input.getRate())) {
                 buyMap.remove(input.getRate());
-                putToMap(false, input.getRate() * 2, input.getAmount(), input.getCommission());
+                putToMap(false, input.getRate() * 2, amount, input.getCommission());
             } else {
-                putToMap(false, input.getRate(), input.getAmount(), input.getCommission());
+                putToMap(false, input.getRate(), amount, input.getCommission());
             }
+            String investmentJoined = remainingInvestment.removeLast();
+            Double investmentAmount = Double.valueOf(investmentJoined.split(":")[0]);
+            Double investmentPrice = Double.valueOf(investmentJoined.split(":")[1]);
+            investmentPrice = investmentPrice + input.getRate();
+            remainingInvestment.addLast(investmentAmount + ":" + investmentPrice);
+
         } else if (input.getOperation().equals(Operation.al)) {
-            putToMap(false, input.getRate(), input.getAmount(), input.getCommission());
+            putToMap(false, input.getRate(), amount, input.getCommission());
+            remainingInvestment.addLast(amount + ":" + (input.getRate() * amount));
         } else {
             System.out.println(input + " ignored.");
         }

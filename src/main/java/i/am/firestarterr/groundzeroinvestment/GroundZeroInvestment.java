@@ -17,8 +17,6 @@ import java.util.stream.Stream;
 public class GroundZeroInvestment {
 
     public static void main(String[] args) {
-        double anapara = 0d;
-
         CalculatorFactory calculatorFactory = new CalculatorFactory();
 
         Path path = null;
@@ -36,10 +34,6 @@ public class GroundZeroInvestment {
                 if (line.startsWith("#") || line.startsWith("/"))
                     continue;
                 String[] params = line.split(":");
-                if (params[0].equalsIgnoreCase("anapara")) {
-                    anapara += Double.parseDouble(params[1]);
-                    continue;
-                }
                 Input input = new Input(params);
                 String type = params[0];
                 Calculator calculator = calculatorFactory.getCalculator(type);
@@ -105,16 +99,18 @@ public class GroundZeroInvestment {
             calculator.printStanding();
         }
 
+        double totalRemainingInvestment = 0d;
         double totalProfit = 0d;
         double anlikEderi = 0d;
         for (Calculator calculator : calculatorFactory.getAllCalculators()) {
             totalProfit += calculator.printProfit();
             anlikEderi += (calculator.getTotalRemainingAmount() * calculator.getEnparaSell());
+            totalRemainingInvestment += calculator.getRemainingInvestment().stream().map(investmentJoined -> Double.valueOf(investmentJoined.split(":")[1])).mapToDouble(Double::doubleValue).sum();
         }
 
         System.out.println("-------------------------");
-        System.out.println("INVESTMENT TOTAL: " + anapara);
-        System.out.println("INVESTMENT WORTH: " + anlikEderi + " diff: " + (anlikEderi - anapara));
+        System.out.println("INVESTMENT TOTAL: " + totalRemainingInvestment);
+        System.out.println("INVESTMENT WORTH: " + anlikEderi + " diff: " + (anlikEderi - totalRemainingInvestment));
         System.out.println("-------------------------");
         System.out.println("TOTAL PROFIT: " + totalProfit);
         System.out.println("-------------------------");
