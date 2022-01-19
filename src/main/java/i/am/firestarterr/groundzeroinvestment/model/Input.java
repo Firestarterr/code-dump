@@ -13,15 +13,15 @@ public class Input {
 
     public Input(String[] line) {
         if (line.length == 5) {
-            commission = Double.valueOf(line[4]);
+            commission = Double.parseDouble(line[4]);
         }
         this.operation = Operation.getOperation(line[1]);
         if (Operation.kambiyo.equals(operation)) {
-            rate = Double.valueOf(line[2]);
+            rate = Double.parseDouble(line[2]);
             this.amount = 0d;
         } else {
-            this.rate = Double.valueOf(line[2]);
-            this.amount = Double.valueOf(line[3]);
+            this.rate = Double.parseDouble(line[2]);
+            this.amount = Double.parseDouble(line[3]);
         }
     }
 
