@@ -38,3 +38,4 @@ dolar:sat:17,1425:128,20
 dolar:sat:17,1425:2069,53
 altın:al:800,345133:50
 altın:kambiyo:80.03
+euro:sat:15,476337:1900,02

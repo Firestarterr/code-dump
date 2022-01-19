@@ -30,7 +30,7 @@ public class ComponentCodeInsertGenerator {
                 String code = split[0];
                 String message = split[1];
                 System.out.println("INSERT INTO component_code (id, code, language, value) VALUES ('" + UUID.randomUUID() +
-                        "', '" + code + "', 'en', '" + message + "');");
+                        "', '" + code + "', 'ge', '" + message + "');");
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -9,7 +9,7 @@ public class RandomUUIDGenerator {
                 "    siralama int,\n" +
                 "    guid     uuid\n" +
                 ");");
-        for (int i = 0; i < 300; i++) {
+        for (int i = 0; i < 10000; i++) {
             UUID uuid = UUID.randomUUID();
             String randomUUIDString = uuid.toString();
 

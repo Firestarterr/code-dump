@@ -39,6 +39,7 @@ public class Calculator {
     private Double rateWeight = 0d;
     private Double profit = 0d;
     private Double currentStanding = 0d;
+    private final List<String> remainingInvestments = new ArrayList<>();
 
     public Calculator(String type) {
         this.type = type;
@@ -50,8 +51,8 @@ public class Calculator {
             putToMap(true, input.getRate(), amount, input.getCommission());
             while (amount > 0) {
                 String investmentJoined = remainingInvestment.removeFirst();
-                Double investmentAmount = Double.valueOf(investmentJoined.split(":")[0]);
-                Double investmentPrice = Double.valueOf(investmentJoined.split(":")[1]);
+                double investmentAmount = Double.parseDouble(investmentJoined.split(":")[0]);
+                double investmentPrice = Double.parseDouble(investmentJoined.split(":")[1]);
                 if (investmentAmount > amount) {
                     investmentPrice = investmentPrice * ((investmentAmount - amount) / investmentAmount);
                     remainingInvestment.addFirst((investmentAmount - amount) + ":" + investmentPrice);
@@ -66,8 +67,8 @@ public class Calculator {
                 putToMap(false, input.getRate(), amount, input.getCommission());
             }
             String investmentJoined = remainingInvestment.removeLast();
-            Double investmentAmount = Double.valueOf(investmentJoined.split(":")[0]);
-            Double investmentPrice = Double.valueOf(investmentJoined.split(":")[1]);
+            double investmentAmount = Double.parseDouble(investmentJoined.split(":")[0]);
+            double investmentPrice = Double.parseDouble(investmentJoined.split(":")[1]);
             investmentPrice = investmentPrice + input.getRate();
             remainingInvestment.addLast(investmentAmount + ":" + investmentPrice);
 
@@ -94,11 +95,11 @@ public class Calculator {
         enparaSell = liveSell;
 
         System.out.println("satılan " + type + ":");
-        for (Map.Entry<Double, Double> entry : sellMap.entrySet()) {
-            System.out.println("kur: " + entry.getKey() + "\t miktar: " + entry.getValue() + "\t total: " + getPrice(entry.getKey(), entry.getValue()));
-            totalSoldAmount += entry.getValue();
-            totalSoldPrice += getPrice(entry.getKey(), entry.getValue());
-        }
+        sellMap.forEach((key, value) -> {
+            System.out.println("kur: " + key + "\t miktar: " + value + "\t total: " + getPrice(key, value));
+            totalSoldAmount += value;
+            totalSoldPrice += getPrice(key, value);
+        });
         averageSellRate = totalSoldPrice / totalSoldAmount;
 
 
@@ -139,12 +140,14 @@ public class Calculator {
         remainingSellMap = remainingSellMap.entrySet().stream().sorted(comparingByKey()).collect(toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new));
 
         System.out.println("Kalan: " + type);
-        for (Map.Entry<Double, Double> entry : remainingSellMap.entrySet()) {
-            System.out.println("kur: " + entry.getKey() + "\t miktar: " + entry.getValue() + "\t total: " + getPrice(entry.getKey(), entry.getValue()));
-            remainingSellAmount += entry.getValue();
-            remainingSellPrice += getPrice(entry.getKey(), entry.getValue());
-            totalRemainingAmount += entry.getValue();
-        }
+        remainingSellMap.forEach((key, value) -> {
+            String kalanStr = "kur: " + key + "\t miktar: " + value + "\t total: " + getPrice(key, value);
+            remainingInvestments.add(kalanStr);
+            System.out.println(kalanStr);
+            remainingSellAmount += value;
+            remainingSellPrice += getPrice(key, value);
+            totalRemainingAmount += value;
+        });
         effectiveSellRate = remainingSellPrice / remainingSellAmount;
         try {
             sellSuggestion = (enparaSell - (enparaBuy - enparaSell) - effectiveSellRate) > 0 ? "sat" : "satma";
@@ -156,6 +159,11 @@ public class Calculator {
         rateWeight = 100 * profit / totalSoldPrice;
         System.out.println("-------------------------");
         System.out.println("-------------------------");
+    }
+
+    public void printRemainingInvestments() {
+        System.out.println("Kalan: " + type);
+        remainingInvestments.forEach(System.out::println);
     }
 
     public void printBuyRate() {

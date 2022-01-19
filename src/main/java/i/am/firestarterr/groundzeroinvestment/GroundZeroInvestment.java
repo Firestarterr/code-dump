@@ -115,6 +115,11 @@ public class GroundZeroInvestment {
         System.out.println("TOTAL PROFIT: " + totalProfit);
         System.out.println("-------------------------");
 
+        for (Calculator calculator : calculatorFactory.getAllCalculators()) {
+            calculator.printRemainingInvestments();
+        }
+        System.out.println("-------------------------");
+
         enparaLive.print();
         System.out.println("-------------------------");
     }
