@@ -1,6 +1,6 @@
 package i.am.firestarterr.gebbasoft;
 
-import i.am.firestarterr.groundzeroinvestment.service.EnparaLive;
+import i.am.firestarterr.groundzeroinvestment.service.EnparaLiveJsoup;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -16,14 +16,15 @@ public class YillikGelirGiderHesapTahmini {
 
     public static void main(String[] args) {
         DecimalFormat paraFormatter = new DecimalFormat("####,###,###.00");
-        EnparaLive enparaLive = new EnparaLive();
+        EnparaLiveJsoup enparaLive = new EnparaLiveJsoup();
         enparaLive.init();
+        enparaLive.print();
         //inputs
-        double aylikFatura = 20000d;
+        double aylikFatura = 2050d * 10d;
         double aylikKdvsizFatura = 5200d * (enparaLive.getUsdBuy() + enparaLive.getUsdSell()) / 2;
-        double aylik1Gider = 2000d;
-        double aylik8Gider = 15000d;
-        double aylik18Gider = 15000d;
+        double aylik1Gider = 250d;
+        double aylik8Gider = 20000d;
+        double aylik18Gider = 20000d;
 
         double aylikKdv = aylikFatura * kdv18 / 100;
         double aylikKazanc = aylikFatura + aylikKdv + aylikKdvsizFatura;

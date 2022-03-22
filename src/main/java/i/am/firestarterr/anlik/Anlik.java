@@ -1,32 +1,36 @@
 package i.am.firestarterr.anlik;
 
-import java.io.IOException;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.text.DecimalFormat;
 
 public class Anlik {
 
     private static final String GET_URL = "http://localhost:8002/secure/schedulers_old.xhtml";
 
-    public static void main(String[] args) throws IOException {
-//        Anlik anlik = new Anlik();
-
-        System.out.println("piper".charAt(3));
-        ArrayList<String> s = new ArrayList<>(Arrays.asList("ehue", "e"));
-//        for (int i = 0; i < 300; i++) {
-//            try {
-//                anlik.sendGET();
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
+    public static void main(String[] args) {
+        DecimalFormat paraFormatter = new DecimalFormat("####,###,###.00");
+        double startWith = 250;
+        double oran = 1.09d;
+        for (int i = 0; i < 34; i++) {
+            System.out.println("kredi:" + paraFormatter.format(startWith) +
+                    " Ödemesi:" + paraFormatter.format(startWith * oran) +
+                    " 12 Aylık taksit: " + paraFormatter.format(startWith * oran / 12) +
+                    " Toplam Para:" + paraFormatter.format(310 + startWith));
+            startWith = startWith + 10;
+        }
         System.out.println("ehue");
     }
 
+//    public static void main(String[] args) throws IOException {
+//        Anlik anlik = new Anlik();
+//        anlik.sendGETImg();
+//        System.out.println("ehue");
+//    }
+
     private void sendGET() throws IOException {
-        URL url = new URL(GET_URL);
+        URL url = new URL("https://logo.clearbit.com/testout.com");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
         con.setInstanceFollowRedirects(true);
@@ -34,36 +38,21 @@ public class Anlik {
         System.out.println(status);
     }
 
-    //    public static void main(String[] args) {
-//        double islem = 24007.47 - 2900d - 18501.52 + 2250;
-//        System.out.println(islem);
-//        double islem2 = 23357.47 - 2250d;
-//        System.out.println(islem2);
-//        double islem3 = 10046.92 + 14.41;
-//        System.out.println(islem3);
-//    }
-//    public static void main(String[] args) {
-//        List<Integer> list = new ArrayList<>();
-//        list.add(1043000);
-//        list.add(1310000);
-//        list.add(1143000);
-//        list.add(1320000);
-//        list.add(1243000);
-//        for (Integer integer : list) {
-//            System.out.println(integer * 95 / 100);
-//        }
-//
-//    }
+    private void sendGETImg() throws IOException {
+        URL url = new URL("https://logo.clearbit.com/testout.com");
+        InputStream in = new BufferedInputStream(url.openStream());
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        byte[] buf = new byte[1024];
+        int n;
+        while (-1 != (n = in.read(buf))) {
+            out.write(buf, 0, n);
+        }
+        out.close();
+        in.close();
+        byte[] response = out.toByteArray();
+        FileOutputStream fos = new FileOutputStream("out2.jpg");
+        fos.write(response);
+        fos.close();
+    }
+
 }
-//finans anlık kapama 24.007,47
-//enpara güncel borç 3.829,37
-//miles güncel borç 9.819,23
-//enparadaki anlık para 16.196,14
-//işbank nakit 54.436,85
-//işbank ek hesap borcu 3,75
-//işbank eft çiçek 980
-//işbank kart borcu 657,25
-//yapıkredi nakit 73,80
-//adios güncel borç 2.660,37
-//finans nakit 55,61
-//finans anlık kapama 58.925,36

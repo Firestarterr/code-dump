@@ -2,7 +2,7 @@ package i.am.firestarterr.groundzeroinvestment;
 
 import i.am.firestarterr.groundzeroinvestment.model.Input;
 import i.am.firestarterr.groundzeroinvestment.service.Calculator;
-import i.am.firestarterr.groundzeroinvestment.service.EnparaLive;
+import i.am.firestarterr.groundzeroinvestment.service.EnparaLiveJsoup;
 import i.am.firestarterr.groundzeroinvestment.service.factory.CalculatorFactory;
 
 import java.io.IOException;
@@ -44,7 +44,7 @@ public class GroundZeroInvestment {
         }
 
         System.out.println("Oyun başlangıcı : 03/11/2020");
-        EnparaLive enparaLive = new EnparaLive();
+        EnparaLiveJsoup enparaLive = new EnparaLiveJsoup();
         enparaLive.init();
 
         for (Calculator calculator : calculatorFactory.getAllCalculators()) {
@@ -118,10 +118,7 @@ public class GroundZeroInvestment {
         for (Calculator calculator : calculatorFactory.getAllCalculators()) {
             calculator.printRemainingInvestments();
         }
-        System.out.println("-------------------------");
-
         enparaLive.print();
-        System.out.println("-------------------------");
     }
 
 }
