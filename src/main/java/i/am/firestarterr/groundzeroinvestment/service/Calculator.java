@@ -50,6 +50,7 @@ public class Calculator {
         if (input.getOperation().equals(Operation.sat)) {
             putToMap(true, input.getRate(), amount, input.getCommission());
             while (amount > 0) {
+                if (remainingInvestment.isEmpty()) return;
                 String investmentJoined = remainingInvestment.removeFirst();
                 double investmentAmount = Double.parseDouble(investmentJoined.split(":")[0]);
                 double investmentPrice = Double.parseDouble(investmentJoined.split(":")[1]);

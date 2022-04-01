@@ -23,8 +23,8 @@ public class YillikGelirGiderHesapTahmini {
         double aylikFatura = 2050d * 10d;
         double aylikKdvsizFatura = 5200d * (enparaLive.getUsdBuy() + enparaLive.getUsdSell()) / 2;
         double aylik1Gider = 250d;
-        double aylik8Gider = 20000d;
-        double aylik18Gider = 20000d;
+        double aylik8Gider = 10000d;
+        double aylik18Gider = 15000d;
 
         double aylikKdv = aylikFatura * kdv18 / 100;
         double aylikKazanc = aylikFatura + aylikKdv + aylikKdvsizFatura;
