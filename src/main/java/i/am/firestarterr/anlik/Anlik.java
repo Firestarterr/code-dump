@@ -4,6 +4,8 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.DecimalFormat;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Anlik {
 
@@ -20,6 +22,13 @@ public class Anlik {
                     " Toplam Para:" + paraFormatter.format(310 + startWith));
             startWith = startWith + 10;
         }
+
+        Set<String> xx = new HashSet<>();
+        xx.add("a");
+        xx.add(null);
+        System.out.println(xx);
+        xx.remove(null);
+        System.out.println(xx);
         System.out.println("ehue");
     }
 
