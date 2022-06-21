@@ -52,3 +52,4 @@ euro:kambiyo:97.23
 dolar:al:14,8475:12500
 dolar:kambiyo:371.19
 dolar:sat:15,6725:1699,99
+dolar:sat:17,253:860

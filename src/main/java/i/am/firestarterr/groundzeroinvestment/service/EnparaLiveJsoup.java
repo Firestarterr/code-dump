@@ -30,8 +30,10 @@ public class EnparaLiveJsoup {
             Elements elements = doc.getElementsByClass("enpara-gold-exchange-rates__table-item");
             elements.forEach(element -> {
                 Elements spans = element.getElementsByTag("span");
-                double spanSell = Double.parseDouble(spans.get(1).text().replace(" TL", "").replace(",", "."));
-                double spanBuy = Double.parseDouble(spans.get(2).text().replace(" TL", "").replace(",", "."));
+                double spanSell = Double.parseDouble(spans.get(1).text().replace(" TL", "")
+                        .replaceAll("\\.", "").replace(",", "."));
+                double spanBuy = Double.parseDouble(spans.get(2).text().replace(" TL", "")
+                        .replaceAll("\\.", "").replace(",", "."));
                 if (!element.getElementsContainingText("USD ($)").isEmpty()) {
                     usdSell = spanSell;
                     usdBuy = spanBuy;
